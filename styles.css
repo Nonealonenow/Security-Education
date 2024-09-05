@@ -1,0 +1,184 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #222;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    background-image: url('data:image/png;base64,UklGRlqFAQBXRUJQVlA4IFahAACw3gKdASoABAAEPjEYi0QiJKEiIhIoyJAGCWdu/GCuyuAH9mnLHWPA9JMHh+3+Jod19dFzd+167df+z0rTePcl+aIVJRF9v9m/YfkV/eP2o+knjPwk9O99/75/8f8z903+n/ZemXuv/S/3v3OfEfzB/i');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #4a0087; /* Morado */
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #1a1a1a;
+}
+
+.hero h2 {
+    font-size: 3em;
+    color: #00ff66; /* Verde */
+}
+
+.hero p {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #4a0087; /* Morado */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #00ff66; /* Verde */
+}
+
+/* Verificación */
+.verification {
+    padding: 50px 20px;
+    background-color: #333;
+    text-align: center;
+}
+
+.verification h2 {
+    color: #00ff66; /* Verde */
+}
+
+.verification form input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.verification form button {
+    padding: 10px 20px;
+    background-color: #4a0087; /* Morado */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.verification form button:hover {
+    background-color: #00ff66; /* Verde */
+}
+
+/* Reports Section */
+.reports {
+    padding: 50px 20px;
+    background-color: #222;
+}
+
+.report-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.report-card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.report-card h3 {
+    color: #00ff66; /* Verde */
+    margin-bottom: 10px;
+}
+
+.report-card p {
+    margin-bottom: 20px;
+}
+
+.report-card a {
+    color: #4a0087; /* Morado */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.report-card a:hover {
+    color: #00ff66; /* Verde */
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    background-color: #333;
+}
+
+.about h2 {
+    color: #00ff66; /* Verde */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #222;
+    text-align: center;
+    color: #fff;
+}
+
+footer a {
+    color: #4a0087; /* Morado */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #00ff66; /* Verde */
+}
